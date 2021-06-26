@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <sessions>
+    <center_id>1234</center_id>
+    <name>District General Hostpital</name>
+    <name_l></name_l>
+    <address>45 M G Road</address>
+    <address_l></address_l>
+    <state_name>Maharashtra</state_name>
+    <state_name_l></state_name_l>
+    <district_name>Satara</district_name>
+    <district_name_l></district_name_l>
+    <block_name>Jaoli</block_name>
+    <block_name_l></block_name_l>
+    <pincode>413608</pincode>
+    <lat>28.7</lat>
+    <long>77.1</long>
+    <from>09:00:00</from>
+    <to>18:00:00</to>
+    <fee_type>Paid</fee_type>
+    <fee>250</fee>
+    <session_id>3fa85f64-5717-4562-b3fc-2c963f66afa6</session_id>
+    <date>31-05-2021</date>
+    <available_capacity>50</available_capacity>
+    <available_capacity_dose1>25</available_capacity_dose1>
+    <available_capacity_dose2>25</available_capacity_dose2>
+    <min_age_limit>18</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>FORENOON</slots>
+    <slots>AFTERNOON</slots>
+  </sessions>
+</root>

@@ -1,0 +1,1335 @@
+<?xml version="1.0" standalone="yes"?>
+<rootNode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <xs:schema id="rootNode" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="rootNode" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="sessions">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="center_id" type="xs:string" minOccurs="0" />
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="address" type="xs:string" minOccurs="0" />
+                <xs:element name="state_name" type="xs:string" minOccurs="0" />
+                <xs:element name="district_name" type="xs:string" minOccurs="0" />
+                <xs:element name="block_name" type="xs:string" minOccurs="0" />
+                <xs:element name="pincode" type="xs:string" minOccurs="0" />
+                <xs:element name="from" type="xs:string" minOccurs="0" />
+                <xs:element name="to" type="xs:string" minOccurs="0" />
+                <xs:element name="lat" type="xs:string" minOccurs="0" />
+                <xs:element name="long" type="xs:string" minOccurs="0" />
+                <xs:element name="fee_type" type="xs:string" minOccurs="0" />
+                <xs:element name="session_id" type="xs:string" minOccurs="0" />
+                <xs:element name="date" type="xs:string" minOccurs="0" />
+                <xs:element name="available_capacity" type="xs:string" minOccurs="0" />
+                <xs:element name="available_capacity_dose1" type="xs:string" minOccurs="0" />
+                <xs:element name="available_capacity_dose2" type="xs:string" minOccurs="0" />
+                <xs:element name="fee" type="xs:string" minOccurs="0" />
+                <xs:element name="min_age_limit" type="xs:string" minOccurs="0" />
+                <xs:element name="vaccine" type="xs:string" minOccurs="0" />
+                <xs:element name="slots" nillable="true" minOccurs="0" maxOccurs="unbounded">
+                  <xs:complexType>
+                    <xs:simpleContent msdata:ColumnName="slots_Text" msdata:Ordinal="0">
+                      <xs:extension base="xs:string">
+                      </xs:extension>
+                    </xs:simpleContent>
+                  </xs:complexType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <sessions>
+    <center_id>122677</center_id>
+    <name>Ennappara FHC</name>
+    <address>Ennappara FHC Thayannur P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Panathady CHC</block_name>
+    <pincode>671531</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>10d3176e-f695-4425-a84e-44014b7f52fe</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>699778</center_id>
+    <name>Reliance - CIMS KERALA LTD</name>
+    <address>Kusavankunnu Ajanur PO Kanhangad Kasaragod Dist</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Periye CHC</block_name>
+    <pincode>671531</pincode>
+    <from>09:00:00</from>
+    <to>18:00:00</to>
+    <lat>1</lat>
+    <long>1</long>
+    <fee_type>Paid</fee_type>
+    <session_id>e7d99fc8-74a4-4b4d-aaae-687328c6c7bc</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>18</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-11:00AM</slots>
+    <slots>11:00AM-01:00PM</slots>
+    <slots>01:00PM-03:00PM</slots>
+    <slots>03:00PM-06:00PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>739424</center_id>
+    <name>Karindalam FHC 2</name>
+    <address>Karindalam FHC</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Nileshwar CHC</block_name>
+    <pincode>671534</pincode>
+    <from>09:00:00</from>
+    <to>13:00:00</to>
+    <lat>1</lat>
+    <long>1</long>
+    <fee_type>Free</fee_type>
+    <session_id>468fb0ca-5c56-46b6-855f-6b44aba90cfd</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>18</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:00PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122071</center_id>
+    <name>Bendadka PHC</name>
+    <address>Bendadka PHC P.O Bendadka</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Bedadka CHC</block_name>
+    <pincode>671541</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>c5fadc03-2c34-4ae1-8ad8-fe3ad3d1d5d6</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122711</center_id>
+    <name>Vellarikundu PHC</name>
+    <address>Vellarikundu PHC Vellarikundu P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Panathady CHC</block_name>
+    <pincode>671534</pincode>
+    <from>09:30:00</from>
+    <to>12:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>08db0644-c236-4121-890b-3dd742965e66</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>15</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>15</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:30AM-11:30AM</slots>
+    <slots>11:30AM-12:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>123663</center_id>
+    <name>Moucode FHC</name>
+    <address>Moucode FHC Moucode P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Nileshwar CHC</block_name>
+    <pincode>671313</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>5bd62f9d-645b-4029-8f20-c18dd971ac1a</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>123658</center_id>
+    <name>Padne PHC</name>
+    <address>Padne PHC Padne P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Nileshwar CHC</block_name>
+    <pincode>671312</pincode>
+    <from>09:30:00</from>
+    <to>12:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>06bca261-bb9d-4096-bcaf-7ccb629d12fe</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:30AM-11:30AM</slots>
+    <slots>11:30AM-12:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122097</center_id>
+    <name>Puthige PHC</name>
+    <address>Puthige PHC Puthige Po</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Kumbla CHC</block_name>
+    <pincode>671321</pincode>
+    <from>09:30:00</from>
+    <to>12:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>6ffc9b8a-05ca-4d93-8641-7b9741847da0</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:30AM-11:30AM</slots>
+    <slots>11:30AM-12:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122072</center_id>
+    <name>Bayar PHC</name>
+    <address>Bayar PHC Bayar P.O Uppla Via</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Mangalpady CHC</block_name>
+    <pincode>671348</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>13011e76-1e26-43e0-a895-cdd7a4cb9869</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>8</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>8</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122686</center_id>
+    <name>Konnakkad PHC</name>
+    <address>Konnakkad PHC Vellarikundu (via) Konnakkad (P.O)</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Panathady CHC</block_name>
+    <pincode>671124</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>83e95b17-8aae-4c6d-8378-f5726e2948e0</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>41</available_capacity>
+    <available_capacity_dose1>4</available_capacity_dose1>
+    <available_capacity_dose2>37</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122571</center_id>
+    <name>Periye CHC</name>
+    <address>Periye CHC Periye P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Periye CHC</block_name>
+    <pincode>671320</pincode>
+    <from>09:30:00</from>
+    <to>12:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>2fd12fae-eaf3-41de-a774-18d2a9e218a7</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:30AM-11:30AM</slots>
+    <slots>11:30AM-12:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122703</center_id>
+    <name>Panathur PHC</name>
+    <address>Panathur PHC Panathur P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Panathady CHC</block_name>
+    <pincode>671532</pincode>
+    <from>09:30:00</from>
+    <to>12:00:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>d2bc3e5a-8ebf-4f88-ba13-ed583ef0a424</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:30AM-11:30AM</slots>
+    <slots>11:30AM-12:00PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122087</center_id>
+    <name>Mangalpady TH</name>
+    <address>THQH Mangalpady P.O Uppala</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Mangalpady CHC</block_name>
+    <pincode>671324</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>74</long>
+    <fee_type>Free</fee_type>
+    <session_id>5076d797-2043-4833-bbbd-9315ce01bf10</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>561523</center_id>
+    <name>Kanhangad DH (Durga School)</name>
+    <address>DH Kanhagad  Kanhagad P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Periye CHC</block_name>
+    <pincode>671531</pincode>
+    <from>09:30:00</from>
+    <to>12:30:00</to>
+    <lat>1</lat>
+    <long>1</long>
+    <fee_type>Free</fee_type>
+    <session_id>0cfc9d5f-3dee-4c52-a5a8-2d28ce05600a</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>25</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>25</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:30AM-11:30AM</slots>
+    <slots>11:30AM-12:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122094</center_id>
+    <name>Nileshwar TH</name>
+    <address>Nileshwar TH Nileshwaram (PO)</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Nileshwar CHC</block_name>
+    <pincode>671314</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>bc5cc581-cfd5-4a50-a848-3c0eb043e793</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122085</center_id>
+    <name>Kumbadaje PHC</name>
+    <address>Kumbadaje PHC Kumbadaje P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Kumbla CHC</block_name>
+    <pincode>671551</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>ba15f841-5379-4f66-abd8-8c92b3066067</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>72</available_capacity>
+    <available_capacity_dose1>23</available_capacity_dose1>
+    <available_capacity_dose2>49</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122078</center_id>
+    <name>Chittarikkal PHC</name>
+    <address>Chittarikkal PHC Chittarikkal P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Nileshwar CHC</block_name>
+    <pincode>671326</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>b2bdcced-39d4-4762-85b3-7421d84356fe</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122088</center_id>
+    <name>Manjeshwar CHC</name>
+    <address>Manjeshwar CHC Hosgate P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Mangalpady CHC</block_name>
+    <pincode>671323</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>74</long>
+    <fee_type>Free</fee_type>
+    <session_id>52ef778f-80c8-40ba-9f55-8dfaaecb6dea</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>23</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>23</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122089</center_id>
+    <name>Meenja PHC</name>
+    <address>Meenja PHC Hanamasabar Chigurupade P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Mangalpady CHC</block_name>
+    <pincode>671323</pincode>
+    <from>09:30:00</from>
+    <to>12:30:00</to>
+    <lat>12</lat>
+    <long>74</long>
+    <fee_type>Free</fee_type>
+    <session_id>c5b8fc3b-e926-4c40-b9a1-b5a077d062e2</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>5</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>5</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:30AM-11:30AM</slots>
+    <slots>11:30AM-12:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122090</center_id>
+    <name>Mogralputhur FHC</name>
+    <address>Mogralputhur FHC Mogralputhur P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Muliyar CHC</block_name>
+    <pincode>671124</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>74</long>
+    <fee_type>Free</fee_type>
+    <session_id>e975b37b-fb68-4dfd-9397-1eea99747557</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>4</available_capacity>
+    <available_capacity_dose1>4</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122099</center_id>
+    <name>Udma FHC</name>
+    <address>Udma FHC Udma P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Bedadka CHC</block_name>
+    <pincode>671319</pincode>
+    <from>09:30:00</from>
+    <to>12:00:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>a593f86c-0ba1-4afd-a044-ae91940bb7f7</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:30AM-11:30AM</slots>
+    <slots>11:30AM-12:00PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122096</center_id>
+    <name>Perla PHC</name>
+    <address>Perla PHC Perla P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Kumbla CHC</block_name>
+    <pincode>671552</pincode>
+    <from>09:00:00</from>
+    <to>12:00:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>32292c7b-2c24-4f4c-9e39-f481f8b4614c</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>83</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>83</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>571626</center_id>
+    <name>Sunrise Hospital (CIMS)</name>
+    <address>Kusavankunnu Ajanur PO Kanhangad Kasaragod Dist</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Periye CHC</block_name>
+    <pincode>671531</pincode>
+    <from>10:00:00</from>
+    <to>14:00:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Paid</fee_type>
+    <session_id>61db6528-f725-4e5d-b6aa-3409812e2a95</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>24</available_capacity>
+    <available_capacity_dose1>11</available_capacity_dose1>
+    <available_capacity_dose2>13</available_capacity_dose2>
+    <fee>780</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:00PM</slots>
+    <slots>01:00PM-02:00PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122091</center_id>
+    <name>Muliyar CHC</name>
+    <address>Muliyar CHC Muliyar P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Muliyar CHC</block_name>
+    <pincode>671542</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>bd5be736-392f-4db2-b518-d7aede95c916</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>49</available_capacity>
+    <available_capacity_dose1>27</available_capacity_dose1>
+    <available_capacity_dose2>22</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>592191</center_id>
+    <name>Trikkaripur TH</name>
+    <address>Trikkaripur</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Nileshwar CHC</block_name>
+    <pincode>671314</pincode>
+    <from>09:30:00</from>
+    <to>12:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>c341493e-3085-481e-9442-375d2473aed1</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:30AM-11:30AM</slots>
+    <slots>11:30AM-12:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122095</center_id>
+    <name>Olat PHC</name>
+    <address>Olat PHC Olat P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Nileshwar CHC</block_name>
+    <pincode>671310</pincode>
+    <from>09:30:00</from>
+    <to>12:00:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>75c5cbab-2777-451b-bc51-d96a31b3fbca</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:30AM-11:30AM</slots>
+    <slots>11:30AM-12:00PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122098</center_id>
+    <name>Thaikkadapuram PHC</name>
+    <address>Thaikkadapuram PHC Nileshwar P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Nileshwar CHC</block_name>
+    <pincode>671314</pincode>
+    <from>09:30:00</from>
+    <to>12:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>ce2e71fa-7d9a-4837-9938-d7ebbc1315a4</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>1</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>1</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:30AM-11:30AM</slots>
+    <slots>11:30AM-12:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122558</center_id>
+    <name>Ajanur PHC</name>
+    <address>Ajanur Phc Kolavayal P.O Kanhagad</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Periye CHC</block_name>
+    <pincode>671531</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>e52b46d8-ef0c-490d-8495-aa2ba3af3a40</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122082</center_id>
+    <name>Kasaragod GH</name>
+    <address>Kasrargod GH Kasaragod P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Muliyar CHC</block_name>
+    <pincode>671121</pincode>
+    <from>09:30:00</from>
+    <to>13:00:00</to>
+    <lat>12</lat>
+    <long>74</long>
+    <fee_type>Free</fee_type>
+    <session_id>599b749c-ada6-4e2d-82fd-f12dac7bab10</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:30AM-11:30AM</slots>
+    <slots>11:30AM-01:00PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122068</center_id>
+    <name>Adoor PHC</name>
+    <address>Adoor PHC Urdoor Post</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Muliyar CHC</block_name>
+    <pincode>671543</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>72ed13fd-7105-4648-88b3-fd533c06edbd</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>57</available_capacity>
+    <available_capacity_dose1>15</available_capacity_dose1>
+    <available_capacity_dose2>42</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122690</center_id>
+    <name>Madikai PHC</name>
+    <address>Madikai PHC Achikanom P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Panathady CHC</block_name>
+    <pincode>671531</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>f12b6467-14e6-41b0-b044-aac86069d7dc</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>123654</center_id>
+    <name>Kumbla CHC</name>
+    <address>Kumbla CHC P.O Kumbla</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Kumbla CHC</block_name>
+    <pincode>671321</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>74</long>
+    <fee_type>Free</fee_type>
+    <session_id>49a119fd-15a0-40e0-ad73-99a4e6c5e34c</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>739424</center_id>
+    <name>Karindalam FHC 2</name>
+    <address>Karindalam FHC</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Nileshwar CHC</block_name>
+    <pincode>671534</pincode>
+    <from>09:00:00</from>
+    <to>13:00:00</to>
+    <lat>1</lat>
+    <long>1</long>
+    <fee_type>Free</fee_type>
+    <session_id>e7711060-4ca5-4873-b179-9ffa382f00a8</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:00PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>699778</center_id>
+    <name>Reliance - CIMS KERALA LTD</name>
+    <address>Kusavankunnu Ajanur PO Kanhangad Kasaragod Dist</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Periye CHC</block_name>
+    <pincode>671531</pincode>
+    <from>09:00:00</from>
+    <to>18:00:00</to>
+    <lat>1</lat>
+    <long>1</long>
+    <fee_type>Paid</fee_type>
+    <session_id>7159070c-7f31-4d5c-ae65-311c9f648b77</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-11:00AM</slots>
+    <slots>11:00AM-01:00PM</slots>
+    <slots>01:00PM-03:00PM</slots>
+    <slots>03:00PM-06:00PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122092</center_id>
+    <name>Mulleria FHC</name>
+    <address>Mulleria FHC Mulleria P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Muliyar CHC</block_name>
+    <pincode>671543</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>df48e977-63b2-4279-8296-36ac6f8f9650</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>38</available_capacity>
+    <available_capacity_dose1>18</available_capacity_dose1>
+    <available_capacity_dose2>20</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122069</center_id>
+    <name>Arikady PHC</name>
+    <address>Arikady PHCArikady P.O Kumbla</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Kumbla CHC</block_name>
+    <pincode>671321</pincode>
+    <from>09:00:00</from>
+    <to>14:00:00</to>
+    <lat>12</lat>
+    <long>74</long>
+    <fee_type>Free</fee_type>
+    <session_id>abd39042-3560-4cc8-8fa0-ae22dba2519c</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>26</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>26</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-02:00PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122073</center_id>
+    <name>Bedadka TH</name>
+    <address>Bedadka TH P.O BedakamChengalavazhi</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Bedadka CHC</block_name>
+    <pincode>671541</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>efba4f57-b213-4527-8a41-59693f2e622b</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>63</available_capacity>
+    <available_capacity_dose1>62</available_capacity_dose1>
+    <available_capacity_dose2>1</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122074</center_id>
+    <name>Belloor PHC</name>
+    <address>Belloor PHC P.O Kinningar</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Kumbla CHC</block_name>
+    <pincode>671543</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>3cd41a68-0e23-407e-a793-a61f18cf3b8f</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>83</available_capacity>
+    <available_capacity_dose1>42</available_capacity_dose1>
+    <available_capacity_dose2>41</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122086</center_id>
+    <name>Madhur PHC</name>
+    <address>Madhur PHC P.O Mayipadi</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Kumbla CHC</block_name>
+    <pincode>671124</pincode>
+    <from>09:30:00</from>
+    <to>12:00:00</to>
+    <lat>12</lat>
+    <long>74</long>
+    <fee_type>Free</fee_type>
+    <session_id>b9b8a942-ea05-479a-b3ad-117c1ebdf55f</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>63</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>63</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:30AM-11:30AM</slots>
+    <slots>11:30AM-12:00PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122077</center_id>
+    <name>Cheruvathur CHC</name>
+    <address>Cheruvathur CHC Cheruvathur P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Nileshwar CHC</block_name>
+    <pincode>671313</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>d7b6bd45-3218-4cfd-9b3b-fe07000838c6</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122698</center_id>
+    <name>Panathady TH</name>
+    <address>Panathady TH Poodamkallu P.O Rajapuram</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Panathady CHC</block_name>
+    <pincode>671532</pincode>
+    <from>09:30:00</from>
+    <to>12:00:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>db374152-57e7-4bed-8fc1-73f0b9f69fb5</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>1</available_capacity>
+    <available_capacity_dose1>1</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:30AM-11:30AM</slots>
+    <slots>11:30AM-12:00PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122672</center_id>
+    <name>Anandasram PHC</name>
+    <address>Anandasram PHC Anandasram P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Periye CHC</block_name>
+    <pincode>671531</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>3f19f6e8-0b9e-45a1-9b6e-f7a77caed51d</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122075</center_id>
+    <name>Chattanchal PHC</name>
+    <address>Chattanchal PHC Chattanchal P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Bedadka CHC</block_name>
+    <pincode>671541</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>ea4550cc-5f69-4555-b773-246efec2b8f6</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122101</center_id>
+    <name>Vorkady FHC</name>
+    <address>Vorkady FHC Vorkady P.O Sukathkatte</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Mangalpady CHC</block_name>
+    <pincode>671323</pincode>
+    <from>09:30:00</from>
+    <to>12:00:00</to>
+    <lat>12</lat>
+    <long>74</long>
+    <fee_type>Free</fee_type>
+    <session_id>d3ad39cb-e679-43b5-9bd1-3b792767cb58</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:30AM-11:30AM</slots>
+    <slots>11:30AM-12:00PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122081</center_id>
+    <name>Karindalam FHC</name>
+    <address>Karindalam FHC Karindalam P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Nileshwar CHC</block_name>
+    <pincode>671314</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>b561ebf1-586c-49f4-bfbe-5c787b3a0f98</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>571626</center_id>
+    <name>Sunrise Hospital (CIMS)</name>
+    <address>Kusavankunnu Ajanur PO Kanhangad Kasaragod Dist</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Periye CHC</block_name>
+    <pincode>671531</pincode>
+    <from>10:00:00</from>
+    <to>14:00:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Paid</fee_type>
+    <session_id>c7b23c3d-d881-42f0-af7b-8402ee6f18b7</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>10</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>10</available_capacity_dose2>
+    <fee>780</fee>
+    <min_age_limit>18</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:00PM</slots>
+    <slots>01:00PM-02:00PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122093</center_id>
+    <name>Narkilakkad PHC</name>
+    <address>Narkilakkad PHC Narkilakkad P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Nileshwar CHC</block_name>
+    <pincode>671314</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>97b81e18-82d2-4778-a2a1-73dda200d5fc</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>60</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>60</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122070</center_id>
+    <name>Badiadka CHC</name>
+    <address>Badiadka CHC  Perdala P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Kumbla CHC</block_name>
+    <pincode>671551</pincode>
+    <from>09:30:00</from>
+    <to>12:00:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>fa6d999c-9936-4149-9850-cca1445d2749</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>12</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>12</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:30AM-11:30AM</slots>
+    <slots>11:30AM-12:00PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122076</center_id>
+    <name>Chengala PHC</name>
+    <address>Chengala PHC Chengala P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Muliyar CHC</block_name>
+    <pincode>671541</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>80de7ef4-c42d-4ca7-8525-64d83d0742a5</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>27</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>27</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122084</center_id>
+    <name>Kayyur FHC</name>
+    <address>Kayyur FHC Kayyur P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Nileshwar CHC</block_name>
+    <pincode>671313</pincode>
+    <from>09:00:00</from>
+    <to>13:30:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>1129117a-5423-45c4-8c08-cbe08fca0933</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:00AM-10:00AM</slots>
+    <slots>10:00AM-11:00AM</slots>
+    <slots>11:00AM-12:00PM</slots>
+    <slots>12:00PM-01:30PM</slots>
+  </sessions>
+  <sessions>
+    <center_id>122564</center_id>
+    <name>Pallikkare PHC</name>
+    <address>Pallikkare PHC Bekkal Fort P.O</address>
+    <state_name>Kerala</state_name>
+    <district_name>Kasaragod</district_name>
+    <block_name>Periye CHC</block_name>
+    <pincode>671316</pincode>
+    <from>09:30:00</from>
+    <to>12:00:00</to>
+    <lat>12</lat>
+    <long>75</long>
+    <fee_type>Free</fee_type>
+    <session_id>108157be-d9f1-4db1-9c3f-d0aaa52311e0</session_id>
+    <date>16-06-2021</date>
+    <available_capacity>0</available_capacity>
+    <available_capacity_dose1>0</available_capacity_dose1>
+    <available_capacity_dose2>0</available_capacity_dose2>
+    <fee>0</fee>
+    <min_age_limit>45</min_age_limit>
+    <vaccine>COVISHIELD</vaccine>
+    <slots>09:30AM-11:30AM</slots>
+    <slots>11:30AM-12:00PM</slots>
+  </sessions>
+</rootNode>

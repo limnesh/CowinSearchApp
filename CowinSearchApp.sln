@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CowinSearchApp", "CowinSearchApp.csproj", "{8FDA56FA-01BA-48E8-AD03-DFA31531AFC4}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "..\Setup\Setup.vdproj", "{7D973E44-8C9F-4A58-B3F4-179A7639F6CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FDA56FA-01BA-48E8-AD03-DFA31531AFC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FDA56FA-01BA-48E8-AD03-DFA31531AFC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FDA56FA-01BA-48E8-AD03-DFA31531AFC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FDA56FA-01BA-48E8-AD03-DFA31531AFC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D973E44-8C9F-4A58-B3F4-179A7639F6CD}.Debug|Any CPU.ActiveCfg = Debug
+		{7D973E44-8C9F-4A58-B3F4-179A7639F6CD}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C26D1A78-9D5B-4DA8-90C2-009D35C7C41E}
+	EndGlobalSection
+EndGlobal
