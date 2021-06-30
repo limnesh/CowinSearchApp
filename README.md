@@ -1,6 +1,8 @@
 # CowinSearchApp
 
 Download application from https://drive.google.com/file/d/1YiijZr93IQd7DZ8xW6CJ9fuLRbn0D51S/view?usp=sharing
+How to video in Malayalam: https://youtu.be/oHrqKbl5-vQ
+
 It is free and opensource. You can use the application and also copy and use the code  for developing desktop/mobile/web applications
 
 To use the source code, please follow below steps.
